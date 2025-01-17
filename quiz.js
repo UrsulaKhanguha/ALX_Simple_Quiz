@@ -12,14 +12,14 @@ if (selectedOption)
  
 //Compare the user's answer with the correct answer
 const feedbackElement = document.getElementById("feedback");
-if(userAnswer === correctAnswer){
+if (userAnswer === correctAnswer) {
     feedbackElement.textContent = "Correct! Well done.";
-} else{
+} else {
     feedbackElement.textContent = "That's incorrect. Try again!"
 }
 
 }
 
 //Add an event listener to the submit button
-const submitButton = document.getElementById("submit-answer");
-submitButton.addEventListener("click", checkAnswer);
+const submitButton = document.getElementById("submit - answer") ;
+submitButton.addEventListener ("click", checkAnswer) ;
