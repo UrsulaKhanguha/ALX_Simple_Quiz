@@ -21,6 +21,6 @@ if (userAnswer === correctAnswer) {
 }
 
 //Add an event listener to the submit button
-submitButton.addEventListener ("click", checkAnswer) ;
+submitButton.addEventListener("click", checkAnswer) ;
 const submitButton = document.getElementById("submit - answer") ;
 
